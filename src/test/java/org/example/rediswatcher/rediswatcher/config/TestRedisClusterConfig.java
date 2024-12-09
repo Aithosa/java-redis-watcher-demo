@@ -8,6 +8,12 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 
 import java.util.Arrays;
 
+/**
+ * 在测试中这里的配置会优先于application.properties文件
+ *
+ * @author Percy
+ * @date 2024/12/9
+ */
 @TestConfiguration
 public class TestRedisClusterConfig {
 
